@@ -10,7 +10,7 @@ Alpha
 Current implementation supports a single Server only.
 
 
-# Installation Instructions
+Installation Instructions
 ============
 
 * Download PD Extended 0.43.4 or greater.
