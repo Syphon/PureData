@@ -27,7 +27,7 @@ void syphonserver :: startRendering()
 
 	post("context is : %p", CGLGetCurrentContext());
 	
-	_server = [[SyphonServer alloc] initWithName:nil context:CGLGetCurrentContext() options:nil];
+	_server = [[SyphonServer alloc] initWithName:@"" context:CGLGetCurrentContext() options:nil];
 	post("Server is: %p", _server);
 
 	something = [@"OMG" retain];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4FA1051B2B883E004DBD63 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B43B84917A49B9D00EC8F26 /* Syphon.framework */; };
 		1BA9037F1442C8450068C8D9 /* syphonserver.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9037E1442C8450068C8D9 /* syphonserver.mm */; };
 		1BA90475144386F70068C8D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA90474144386F70068C8D9 /* Cocoa.framework */; };
 		1BA90477144386F70068C8D9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA90476144386F70068C8D9 /* OpenGL.framework */; };
@@ -46,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B4FA1051B2B883E004DBD63 /* Syphon.framework in Frameworks */,
 				1BA90475144386F70068C8D9 /* Cocoa.framework in Frameworks */,
 				1BA90477144386F70068C8D9 /* OpenGL.framework in Frameworks */,
 			);
@@ -232,7 +234,7 @@
 				GCC_PREFIX_HEADER = syphon.pd_darwin/syphon.pd_darwin_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_UNROLL_LOOPS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "\"/Applications/Pd-extended.app/Contents/Resources/include\"/**";
 				LD_DYLIB_INSTALL_NAME = "$(EXECUTABLE_PATH)";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -264,7 +266,7 @@
 				GCC_PREFIX_HEADER = syphon.pd_darwin/syphon.pd_darwin_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_UNROLL_LOOPS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "\"/Applications/Pd-extended.app/Contents/Resources/include\"/**";
 				LD_DYLIB_INSTALL_NAME = "$(EXECUTABLE_PATH)";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";

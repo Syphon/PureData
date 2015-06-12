@@ -25,9 +25,6 @@ public:
 	// Constructor
 	syphonserver();
 
-	SyphonServer* _server;
-	NSString* something;
-
 protected:
 
 	// Rendering 	
@@ -38,6 +35,9 @@ protected:
 	// Stop Transfer
 	virtual void stopRendering();
 		
+    SyphonServer* _server;
+    NSString* something;
+
 };
 			
 #pragma GCC visibility pop
