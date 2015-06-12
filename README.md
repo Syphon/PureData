@@ -10,10 +10,8 @@ Alpha
 Current implementation supports a single Server only.
 
 
-Installation
-============
-
 # Installation Instructions
+============
 
 * Download PD Extended 0.43.4 or greater.
 * Install PD Extended into your /Applications folder.
